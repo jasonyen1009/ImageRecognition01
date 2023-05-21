@@ -14,6 +14,7 @@
 		962F6E9C2A19ED8B00D9AA75 /* ImageRecognition01Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 962F6E9B2A19ED8B00D9AA75 /* ImageRecognition01Tests.swift */; };
 		962F6EA62A19ED8B00D9AA75 /* ImageRecognition01UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 962F6EA52A19ED8B00D9AA75 /* ImageRecognition01UITests.swift */; };
 		962F6EA82A19ED8B00D9AA75 /* ImageRecognition01UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 962F6EA72A19ED8B00D9AA75 /* ImageRecognition01UITestsLaunchTests.swift */; };
+		962F6EB52A19EDFD00D9AA75 /* Resnet50Int8LUT.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 962F6EB42A19EDFD00D9AA75 /* Resnet50Int8LUT.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		962F6EA12A19ED8B00D9AA75 /* ImageRecognition01UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ImageRecognition01UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		962F6EA52A19ED8B00D9AA75 /* ImageRecognition01UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageRecognition01UITests.swift; sourceTree = "<group>"; };
 		962F6EA72A19ED8B00D9AA75 /* ImageRecognition01UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageRecognition01UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		962F6EB42A19EDFD00D9AA75 /* Resnet50Int8LUT.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Resnet50Int8LUT.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +96,7 @@
 		962F6E892A19ED8A00D9AA75 /* ImageRecognition01 */ = {
 			isa = PBXGroup;
 			children = (
+				962F6EB42A19EDFD00D9AA75 /* Resnet50Int8LUT.mlmodel */,
 				962F6E8A2A19ED8A00D9AA75 /* ImageRecognition01App.swift */,
 				962F6E8C2A19ED8A00D9AA75 /* ContentView.swift */,
 				962F6E8E2A19ED8B00D9AA75 /* Assets.xcassets */,
@@ -259,6 +262,7 @@
 			files = (
 				962F6E8D2A19ED8A00D9AA75 /* ContentView.swift in Sources */,
 				962F6E8B2A19ED8A00D9AA75 /* ImageRecognition01App.swift in Sources */,
+				962F6EB52A19EDFD00D9AA75 /* Resnet50Int8LUT.mlmodel in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -417,8 +421,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"ImageRecognition01/Preview Content\"";
+				DEVELOPMENT_TEAM = FWYVY227K8;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -445,8 +452,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"ImageRecognition01/Preview Content\"";
+				DEVELOPMENT_TEAM = FWYVY227K8;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
